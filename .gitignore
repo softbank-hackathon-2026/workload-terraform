@@ -1,0 +1,11 @@
+**/.terraform/
+.local/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.json
+crash*.log
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+*.local.hcl

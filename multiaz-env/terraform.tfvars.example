@@ -1,0 +1,9 @@
+# 이 파일을 terraform.tfvars로 복사한 뒤 실제 값으로 바꾸세요.
+# terraform.tfvars는 .gitignore에 있어서 커밋되지 않습니다.
+
+# ALB에 연결할 서브도메인 (도메인 관리자와 정한 이름)
+domain_name = "demo.example.com"
+
+# 선택 (기본값: 80, "/")
+# container_port    = 80
+# health_check_path = "/"
